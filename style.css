@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    padding-top: 4rem;
+    display: grid;
+    place-content: center;
+}
+#text_title{
+    height: 2rem;
+    width: 24rem;
+    font-size: 1rem;
+}
+
+#add_btn{
+    color: aliceblue;
+    background-color: rgb(28, 172, 28);
+    border-color: white;
+    border-radius: 9%;
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem;
+
+}
+
+
+
+.item{
+    list-style: none;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between; /* display flex dile aita kaj korbe */
+    padding : 1rem 0rem;
+}
+ul li:last-child {
+    border-bottom: none
+}
+
+
+h1 {
+    flex-grow: 1; /* er paser item dore soriye dibe */
+}
+
+.edit{
+    background-color: rgb(43, 171, 43);
+    color: aliceblue;
+    border: none;
+    height: 2.5rem;
+    width: 4rem;
+    margin: 0rem 0.5rem;
+}
+.remove{
+    background-color: rgb(203, 44, 44);
+    color: aliceblue;
+    border: none;
+    height: 2.5rem;
+    width: 4rem;
+    
+}
